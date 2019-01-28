@@ -94,6 +94,11 @@ def checkout (oid):
     data.set_HEAD (oid)
 
 
+def create_tag (name, oid):
+    # TODO Actually create the tag
+    pass
+
+
 Commit = namedtuple ('Commit', ['tree', 'parent', 'message'])
 
 
