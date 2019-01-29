@@ -67,7 +67,7 @@ def parse_args ():
 
 
 def init (args):
-    data.init ()
+    base.init ()
 
 
 def hash_object (args):
