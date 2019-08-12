@@ -83,6 +83,11 @@ def get_working_tree ():
     return result
 
 
+def get_index_tree ():
+    with data.get_index () as index:
+        return index
+
+
 def _empty_current_directory ():
     for root, _, filenames in os.walk ('.'):
         for filename in filenames:
